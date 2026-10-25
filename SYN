@@ -4,6 +4,8 @@
   Preserves request-first fetch and task.spawn execution.
 ]]
 
+print("[Synvextia] loader v2 (direct per-game URLs)")
+
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
